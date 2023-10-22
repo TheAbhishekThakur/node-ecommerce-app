@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Abhishek Thakur",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {}
+}
