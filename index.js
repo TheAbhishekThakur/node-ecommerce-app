@@ -1,11 +1,11 @@
-const express = require('express')
+const express = require('express');
 const app = express();
 const port = 6000;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
 // Routes
-const userRoute = require('./Routes/UserRoute');
+const {userRoute} = require('./routes');
 
 
 // Middlewares
