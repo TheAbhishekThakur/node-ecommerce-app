@@ -1,9 +1,8 @@
 {
-  "name": "recipe-app-server",
+  "name": "node-ecommerce-app",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "commonjs",
   "author": "Abhishek Thakur",
   "license": "ISC",
   "scripts": {

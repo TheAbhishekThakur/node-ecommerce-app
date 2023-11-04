@@ -5,7 +5,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 // Routes
-const { userRoute } = require("./routes");
+const router = require("./routes");
 
 // Middlewares
 app.use(cors());
@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 
 // Routes Mapping
-// app.use('/api/user', userRoute);
+app.use("/api", router);
 
 app.listen(port, () => {
   console.log(`Listening on port ` + port);
